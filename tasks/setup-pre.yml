@@ -8,6 +8,7 @@
       - network-manager
       - python-docker
       - python-pip
+      - docker.io
     state: present
 
 - name: pip docker
