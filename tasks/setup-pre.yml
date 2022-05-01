@@ -10,6 +10,7 @@
       - python-pip
       - docker.io
     state: present
+    update_cache: true
 
 - name: pip docker
   pip:
